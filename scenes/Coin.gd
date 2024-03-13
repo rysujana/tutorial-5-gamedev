@@ -4,4 +4,6 @@ func _ready():
 	$Area2D.connect("area_entered", self, "on_area_entered")
 	
 func on_area_entered(area2d):
-	queue_free()
+	$RandomAudioStreamPlayer/AudioStreamPlayer2.play()
+	$AnimationPlayer.play("pickup")
+	$Area2D/CollisionShape2D.disabled = true
