@@ -166,3 +166,18 @@ tile_data = PoolIntArray( -1310711, 0, 0, -1310710, 0, 1, -1310709, 0, 1, -13107
 
 [node name="EndLevel" parent="." index="1"]
 position = Vector2( 305, -322 )
+
+[node name="Coin" parent="." index="16"]
+position = Vector2( 213, -105 )
+
+[node name="Coin2" parent="." index="17"]
+position = Vector2( 337, -169 )
+
+[node name="Coin3" parent="." index="18"]
+position = Vector2( 436, -170 )
+
+[node name="Coin4" parent="." index="19"]
+position = Vector2( 171, -253 )
+
+[node name="Coin5" parent="." index="20"]
+position = Vector2( 259, -329 )
